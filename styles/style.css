@@ -60,6 +60,8 @@ a:hover {
     margin: 20PX;
     padding: 0;
     color: #D9D9D9;
+    align-items: center;
+    justify-content: space-between;
 }
 h3 {
     padding: 20pz;
@@ -67,12 +69,13 @@ h3 {
     color: #D9D9D9;
 }
 .heroImage {
-    background-color: #999;
+    background-color: #262626;
     width: auto;
     height: auto;
     display: flex;
     overflow: hidden;
     justify-content: space-evenly;
+    align-items: center;
 }
 .heroImage img {
     width: 100%;
