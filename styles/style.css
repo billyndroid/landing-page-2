@@ -23,12 +23,36 @@ a {
     margin: 2px;
     padding: 15px;
   }
-a:hover {
-    background-color: #0D0D0D;
+  a:link {
+      
+  }
+  a:visited {
+    background-color: #201f1f;
     margin: 2px;
     padding: 15px;
     border-radius: 8%;
-    transform: scale(1.5);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+  } 
+    
+a:focus {
+    color: #1f1919;
+  }
+
+a:hover {
+    background-color: #262626;
+    margin: 2px;
+    padding: 15px;
+    border-radius: 8%;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms ease-in-out;
+    -webkit-transform: scale(1.2);
+  }
+  a:active {
+    color: #645c5c;
+    font-style: italic;
   }
   .hero {
       margin 5px;
@@ -47,7 +71,7 @@ a:hover {
     height: 500px;
   }
   button {
-    background-color: #0D0D0D;
+    background-color: #262626;
     color: #f9faf8;
     border-radius: 10px;
     border: 0px;
