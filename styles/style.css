@@ -45,10 +45,9 @@ a:hover {
     margin: 2px;
     padding: 15px;
     border-radius: 8%;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
+    
     transition: background-color 1000ms ease-in-out;
-    -webkit-transform: scale(1.2);
+   
   }
   a:active {
     color: #645c5c;
@@ -61,6 +60,7 @@ a:hover {
       font-size: xx-large;
       display: flex;
       justify-content: space-evenly
+      
       
   }
   .heroContainer {
