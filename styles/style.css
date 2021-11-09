@@ -86,7 +86,7 @@ a:hover {
 #left-content {
     display: flex;
     flex-direction: column;
-    margin: 20PX;
+    margin: 30PX;
     padding: 0;
     color: #e2e2e2;
     align-items: center;
