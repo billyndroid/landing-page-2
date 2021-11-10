@@ -183,14 +183,14 @@ justify-content: stretch;
 
 .animate-text {
   animation: text-scrolling 20s linear infinite;
+  animation: 3s linear 1s infinite alternate slidein;
   will-change: transform;
   display: block;
   position: relative;
   white-space: nowrap;
   
   &.left {
-    animation-direction: reverse;
-  }
+    animation-direction: alternate, reverse, normal;
   
 }
 
