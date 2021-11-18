@@ -132,6 +132,7 @@ h3 {
   transition: 0.3s;
   width: auto;
   color:rgba(2,0,36,1);
+  background-color:#eeeeee;
   margin: auto;
   display: flex;
   flex-direction: column;
