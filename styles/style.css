@@ -14,9 +14,7 @@ ul {
     font-weight: 200;
     
   }
-  li {
- 
-  }
+  
 a {
     text-decoration: none;
     color: white;
@@ -149,30 +147,26 @@ h3 {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 2px 16px;
   margin: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-content {
   align-items: center;
   justify-content: space-around;
+  flex-direction: column;
 }
-
-h3 {
-  text-align: center;
-  color:rgb(228, 228, 228);
-  text-shadow: 1px 1px 5px rgb(180, 180, 180);
-  justify-content: center;
-  align-items: center;
-}
-
-h4 {
-  text-align: center;
-  font-size: 1vw;
-  color:rgb(228, 228, 228);
-  text-shadow: 1px 1px 5px rgb(180, 180, 180);
-  justify-content: center;
-  align-items: center;
+.card-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 footer {
@@ -375,7 +369,6 @@ p {
   opacity: 50%;
   border-radius: 10px;
 }
-
 
 h6 {
   color:rgb(228, 228, 228);
