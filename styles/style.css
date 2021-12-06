@@ -2,6 +2,11 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: auto;
 }
+
+main {
+  background-color: darkcyan;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -101,6 +106,19 @@ h3 {
     text-align: center;
     font-size: x-large;
 }
+
+#h3-dark {
+  padding: 20px;
+  margin: 50PX;
+  color: #808080;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+
+
+
 .heroImage {
     background-color: #262626;
     width: auto;
@@ -127,7 +145,7 @@ h3 {
   height: auto;
   animation: myStrongText 1s ease-in-out;
   animation-delay: 2s;
-
+  
 }
 
 @keyframes myStrongText {
@@ -333,6 +351,7 @@ span {
 .block-container {
   display: flex;
   flex-direction: column;
+  background-color: #B2E3E8;
 }
 
 .p-container {
@@ -398,7 +417,7 @@ p {
   padding: 50px;
   z-index: 5;
   font-size: 32px;
-  background: rgb(2,0,36);
+  background: #996B42;
   opacity: 50%;
   display: flex;
   justify-content: center;
