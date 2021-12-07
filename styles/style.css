@@ -553,7 +553,7 @@ h4 {
 
 /* boxer image background - z-index 2*/
 #knockout {
-  background-image: url(/assets/pexels-pixabay-163403.jpg);
+  background-image: url(assets/pexels-pixabay-163403.jpg);
   background-repeat: no-repeat;
   z-index: 2;
   background-size: cover;
@@ -566,7 +566,7 @@ h4 {
 
 /* boxer image cutout - z-index 2*/
 #cutout {
-  background-image: url(/assets/pexels-pixabay-163403.jpg);
+  background-image: url(assets/pexels-pixabay-163403.jpg);
   background-repeat: no-repeat;
   z-index: 20;
   background-size: cover;
@@ -580,7 +580,7 @@ h4 {
 /*  image overlay - z-index 7*/
 /* add image credit to pexels and r.souza */
 #abstract-overlay {
-  background-image: url(/assets/pexels-rodrigo-souza-2531608.jpg);
+  background-image: url(assets/pexels-rodrigo-souza-2531608.jpg);
   background-repeat: no-repeat;
   z-index: 1;
   background-size: cover;
