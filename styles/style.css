@@ -267,6 +267,7 @@ h2 {
 }
 .card-main-header {
   animation: glow 3s infinite;
+  
 }
 animation: glow 3s infinite;
 footer {
@@ -527,12 +528,15 @@ h6 {
   font-family: poppins;
   max-width: 50%;
   text-shadow: 2px 2px;
+  
 }
 h4 {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #595959;
+  margin: 0;
+  padding: 0;
 }
 
 .bg-gradient {
@@ -553,7 +557,7 @@ h4 {
 
 /* boxer image background - z-index 2*/
 #knockout {
-  background-image: url(assets/pexels-pixabay-163403.jpg);
+  background-image: url(/assets/pexels-pixabay-163403.jpg);
   background-repeat: no-repeat;
   z-index: 2;
   background-size: cover;
@@ -566,7 +570,7 @@ h4 {
 
 /* boxer image cutout - z-index 2*/
 #cutout {
-  background-image: url(assets/pexels-pixabay-163403.jpg);
+  background-image: url(/assets/pexels-pixabay-163403.png);
   background-repeat: no-repeat;
   z-index: 20;
   background-size: cover;
@@ -580,7 +584,7 @@ h4 {
 /*  image overlay - z-index 7*/
 /* add image credit to pexels and r.souza */
 #abstract-overlay {
-  background-image: url(assets/pexels-rodrigo-souza-2531608.jpg);
+  background-image: url(/assets/pexels-rodrigo-souza-2531608.jpg);
   background-repeat: no-repeat;
   z-index: 1;
   background-size: cover;
