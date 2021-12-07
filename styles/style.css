@@ -28,7 +28,7 @@ a {
     padding: 15px;
   }
   a:link {
-      
+    color: white;
   }
   a:visited {
     background-color: #201f1f;
@@ -168,16 +168,33 @@ h2 {
   font-family: antique-olive-nord, sans-serif; ;
 }
 /* more text animation*/
+
+@keyframes glow {
+ 
+  
+ 
+  
+  50% {
+    text-shadow: 2px 5px 5px rgba(255, 255, 255, .5),
+                 -20px -50px 5px rgba(255, 255, 255, .5);
+  }
+}
+
+
+
 @keyframes card-text-animation {
   0%    { opacity: 0; }
-  20%   { opacity: 1; }
-  80%   { opacity: 0; }
-  100%  { opacity: 1; }
+  50%  { opacity: 1; }
+  100%  { opacity: 0; }
 }
+
+
+
 
 .card-text-animation {
   animation: card-text-animation 5s infinite;
-  
+  animation: glow 3s infinite;
+
 }
 /* Section One - Part One, two, three, four - Cards*/
 .card-container {
@@ -504,7 +521,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 10vw;
+  font-size: 8vw;
   margin: 50px;
   font-weight: 1200;
   font-family: poppins;
@@ -539,6 +556,19 @@ h4 {
   background-image: url(/assets/pexels-pixabay-163403.jpg);
   background-repeat: no-repeat;
   z-index: 2;
+  background-size: cover;
+  mix-blend-mode: luminosity;
+  opacity: 1;
+  width: auto;
+  height: auto;
+
+}
+
+/* boxer image cutout - z-index 2*/
+#cutout {
+  background-image: url(/assets/pexels-pixabay-163403.jpg);
+  background-repeat: no-repeat;
+  z-index: 20;
   background-size: cover;
   mix-blend-mode: luminosity;
   opacity: 1;
