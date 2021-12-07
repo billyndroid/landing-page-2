@@ -177,6 +177,7 @@ h2 {
 
 .card-text-animation {
   animation: card-text-animation 5s infinite;
+  
 }
 /* Section One - Part One, two, three, four - Cards*/
 .card-container {
@@ -247,8 +248,10 @@ h2 {
   width: 95%;
   border-radius: 5px;
 }
-
-
+.card-main-header {
+  animation: glow 3s infinite;
+}
+animation: glow 3s infinite;
 footer {
     display: flex;
     flex-direction: column;
@@ -512,6 +515,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #595959;
 }
 
 .bg-gradient {
@@ -519,31 +523,41 @@ h4 {
    background-image: linear-gradient(180deg, #996B42, #bb8f69);
    height: auto;
 }
-/* knockout text w/ abstract bg section */
+
+
+/* KNOCKOUT TEXT WITH BOXER AND TEXTURE OVERLAY bg section */
 /* add image credit to pexels*/
+/* boxer image container*/
+#boxer-img-container {
+  width: 100vw;
+  height: auto;
+
+}
+
 /* boxer image background - z-index 2*/
 #knockout {
   background-image: url(/assets/pexels-pixabay-163403.jpg);
   background-repeat: no-repeat;
-  
   z-index: 2;
   background-size: cover;
   mix-blend-mode: luminosity;
   opacity: 1;
   width: auto;
   height: auto;
+
 }
+
 /*  image overlay - z-index 7*/
 /* add image credit to pexels and r.souza */
 #abstract-overlay {
   background-image: url(/assets/pexels-rodrigo-souza-2531608.jpg);
   background-repeat: no-repeat;
   z-index: 1;
-  
   background-size: cover;
   mix-blend-mode: multiply;
-width: 100vw;
-height: auto;
+  width: 100vw;
+  height: auto;
+
 }
 
 #knockout-text {
@@ -555,8 +569,9 @@ height: auto;
   text-shadow: 0.5px 0.5px 0.5px rgba(78, 77, 77, 0.712), 0 0 1em rgba(252, 142, 78, 0.74), 0 0 0.2em #c03e3e98;
   mix-blend-mode:  screen ;
   font-weight: 900;
-  font-size: 4vw;
+  font-size: 10vw;
   max-width: 25%;
+
 }
 
 
