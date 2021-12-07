@@ -7,7 +7,7 @@ main {
   background-color: paleblue;
  
 }
-
+/* navbar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -57,6 +57,8 @@ a:hover {
     color: #645c5c;
     font-style: italic;
   }
+
+  /* Hero Section */
   .hero {
       margin: 5px;
       background-color: #8C8C8C;
@@ -490,11 +492,10 @@ h6 {
 
 .font-fade {
   animation: font-fade 5s ease-in-out;
-  animation-duration: 0.5s;
+  animation-duration: 5s;
   animation-name: font-fade;
   animation-delay: 2.5s;
   animation-fill-mode: both;
-  
 }
 #h4-text-container {
   display: flex;
@@ -519,15 +520,30 @@ h4 {
    height: auto;
 }
 /* knockout text w/ abstract bg section */
+/* add image credit to pexels*/
+/* boxer image background - z-index 2*/
 #knockout {
   background-image: url(/assets/pexels-pixabay-163403.jpg);
   background-repeat: no-repeat;
+  
   z-index: 2;
   background-size: cover;
-  mix-blend-mode: multiply;
-  background-color: hsla(0, 0, 55, .75);
+  mix-blend-mode: luminosity;
+  opacity: 1;
   width: auto;
-  height: 100;
+  height: auto;
+}
+/*  image overlay - z-index 7*/
+/* add image credit to pexels and r.souza */
+#abstract-overlay {
+  background-image: url(/assets/pexels-rodrigo-souza-2531608.jpg);
+  background-repeat: no-repeat;
+  z-index: 1;
+  
+  background-size: cover;
+  mix-blend-mode: multiply;
+width: 100vw;
+height: auto;
 }
 
 #knockout-text {
@@ -536,11 +552,15 @@ h4 {
   margin: 20vw;
   padding: 3vw;
   /*text-shadow: 1px 1px 1px hsl(0,100%,25%), 0 0 1em rgba(252, 197, 78, 0.877), 0 0 0.2em #cc0b0b98;*/
-  text-shadow: 0.5px 0.5px 0.5px rgba(78, 77, 77, 0.712), 0 0 1em rgba(78, 246, 252, 0.74), 0 0 0.2em #94adc298;
+  text-shadow: 0.5px 0.5px 0.5px rgba(78, 77, 77, 0.712), 0 0 1em rgba(252, 142, 78, 0.74), 0 0 0.2em #c03e3e98;
   mix-blend-mode:  screen ;
- 
+  font-weight: 900;
+  font-size: 4vw;
   max-width: 25%;
 }
+
+
+
 #cool-graphic {
   position: absolute;
   left: 0;
