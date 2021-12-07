@@ -139,6 +139,7 @@ h3 {
 /*text section*/
 #text-animation-container {
   display: grid;
+  justify-content: space-around;
 }
 #text-animation {
   background-color: #8C8C8C;
@@ -146,6 +147,7 @@ h3 {
   height: auto;
   animation: myStrongText 1s ease-in-out;
   animation-delay: 2s;
+  max-width: 35%;
   
 }
 
@@ -156,11 +158,12 @@ h3 {
 
 h2 {
   font-weight: 900;
-  font-size: 5vw;
+  font-size: 8vw;
   color: #bbb;
   display: flex;
   justify-content: center;
   mix-blend-mode: multiply;
+  font-family: antique-olive-nord, sans-serif; ;
 }
 /* more text animation*/
 @keyframes card-text-animation {
@@ -520,7 +523,9 @@ h4 {
   z-index: 2;
   background-size: cover;
   mix-blend-mode: multiply;
-  
+  background-color: hsla(0, 0, 55, .75);
+  width: auto;
+  height: 100;
 }
 
 #knockout-text {
@@ -528,8 +533,9 @@ h4 {
   background-color: hsla(0, 0, 55, .75);
   margin: 20vw;
   padding: 3vw;
-  text-shadow: 1px 1px 2px rgb(250, 76, 76), 0 0 1em rgb(78, 78, 252), 0 0 0.2em #D9D9D9;
-  mix-blend-mode:  difference ;
-  animation:  glow 3s infinite;
+  /*text-shadow: 1px 1px 1px hsl(0,100%,25%), 0 0 1em rgba(252, 197, 78, 0.877), 0 0 0.2em #cc0b0b98;*/
+  text-shadow: 0.5px 0.5px 0.5px rgba(78, 77, 77, 0.712), 0 0 1em rgba(78, 246, 252, 0.74), 0 0 0.2em #94adc298;
+  mix-blend-mode:  screen ;
+ 
   max-width: 25%;
 }
